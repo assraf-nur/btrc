@@ -10,7 +10,8 @@ h1 {
 
 .login-page-body,
 .file-upload-page-body,
-.file-view-body {
+.file-view-body,
+.user-page-body {
     background-color: #093545;
     font-family: 'Lexend Deca';
 }
@@ -129,26 +130,22 @@ input[type=checkbox] {
     background-color: #224957;
     border-radius: 10px;
 }
+.user-box {
+    background-color: white;
+    border-radius: 10px;
+}
 
 .file-icon {
     width: 90px;
     margin-left: -15px;
 }
 
-.view-box {
+/* .view-box {
     margin-left: 40px;
-}
+} */
 
 .lower-wave {
    margin-top: -300px;
-}
-.download-file-button{
-    border: 1px solid #8a8a8a;
-    position: absolute;
-    background-color: white;
-    border-radius: 50%;
-    margin-top: -40px;
-    margin-left: 255px;
 }
 .download-file-button2{
     border: 1px solid #8a8a8a;
@@ -156,7 +153,15 @@ input[type=checkbox] {
     background-color: white;
     border-radius: 50%;
     margin-top: -40px;
-    margin-left: 120px;
+    margin-left: 130px;
+}
+.download-file-button{
+    border: 1px solid #8a8a8a;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: 70px;
 }
 @media (max-width: 992px) {
     .login-box {
@@ -189,14 +194,6 @@ input[type=checkbox] {
 
     .view-box {
         margin-left: -10px;
-    }
-    .download-file-button{
-        border: 1px solid #8a8a8a;
-        position: absolute;
-        background-color: white;
-        border-radius: 50%;
-        margin-top: -35px;
-        margin-left: 325px;
     }
     .download-file-button2{
         border: 1px solid #8a8a8a;
@@ -259,7 +256,7 @@ input[type=checkbox] {
     .view-box {
         margin-left: -10px;
     }
-    .download-file-button{
+    .download-file-button2{
         border: 1px solid #8a8a8a;
         position: absolute;
         background-color: white;
