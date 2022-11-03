@@ -121,6 +121,9 @@ input[type=checkbox] {
     height: 3px;
     padding: 0px;
 }
+.card{
+    margin-top: 10px;
+}
 
 .file-view-box {
     background-color: #224957;
@@ -139,7 +142,22 @@ input[type=checkbox] {
 .lower-wave {
    margin-top: -300px;
 }
-
+.download-file-button{
+    border: 1px solid #8a8a8a;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: 255px;
+}
+.download-file-button2{
+    border: 1px solid #8a8a8a;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: 120px;
+}
 @media (max-width: 992px) {
     .login-box {
         color: white;
@@ -171,6 +189,25 @@ input[type=checkbox] {
 
     .view-box {
         margin-left: -10px;
+    }
+    .download-file-button{
+        border: 1px solid #8a8a8a;
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: -35px;
+        margin-left: 325px;
+    }
+    .download-file-button2{
+        border: 1px solid #8a8a8a;
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: -35px;
+        margin-left: 325px;
+    }
+    .lower-wave{
+        display: none;
     }
 }
 
@@ -221,5 +258,16 @@ input[type=checkbox] {
 
     .view-box {
         margin-left: -10px;
+    }
+    .download-file-button{
+        border: 1px solid #8a8a8a;
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: -35px;
+        margin-left: 125px;
+    }
+    .lower-wave{
+        display: none;
     }
 }
